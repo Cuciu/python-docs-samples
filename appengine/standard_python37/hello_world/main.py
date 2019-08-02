@@ -87,3 +87,7 @@ for x in range(0, a1-1):
         EPSGrowth10 = 100*(float(listofEPS[x-9]) - float(listofEPS[x]))/float(listofEPS[x])
         print(" 10 Years Growth Rate {}%".format(EPSGrowth10))
 print(f'list of growth rates {listofEPSGrowth}')
+
+def hello():
+    """Return a friendly HTTP greeting."""
+    return 'Hello World!'
