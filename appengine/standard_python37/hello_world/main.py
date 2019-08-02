@@ -12,10 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# [START gae_python37_app]
+from flask import Flask
 from bs4 import BeautifulSoup
 import requests
 import re
+
+app = Flask(__name__)
+
+@app.route('/')
 
 def Convert(string):
     li = list(string.split(","))
