@@ -91,3 +91,6 @@ print(f'list of growth rates {listofEPSGrowth}')
 def hello():
     """Return a friendly HTTP greeting."""
     return 'Hello World!'
+
+if __name__ == '__main__':
+    app.run()
