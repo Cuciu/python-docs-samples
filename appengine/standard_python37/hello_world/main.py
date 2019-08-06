@@ -68,5 +68,5 @@ def hello():
             EPSGrowth10 = 100 * (float(listofEPS[x - 9]) - float(listofEPS[x])) / float(listofEPS[x])
             r5 = str(" 10 Years Growth Rate {}%".format(EPSGrowth10))
     r6 = str("list of growth rates {}".format(listofEPSGrowth))
-    r = [r1, '/n',r2,r3,r4,r5,r6]
+    r = list([r1, '/n',r2,r3,r4,r5,r6]) 
     return (*r, sep = "/n");
